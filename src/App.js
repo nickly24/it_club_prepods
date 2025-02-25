@@ -8,7 +8,6 @@ import AddFilial from './modules/AddFilial';
 import Addprobfilials from './modules/Addprobfilials';
 import PayInfo from './modules/PayModules/PayInfo';
 import AppDnevnik from './dnevnik/AppDnevnik';
-import  Analytics  from './analytics/Analytics';
 function App() {
   return (
     <div className="App">
@@ -17,7 +16,6 @@ function App() {
         <Routes>
           <Route path="/*" element={<CrmConsole />} />
           <Route path="/dnevnik" element={<AppDnevnik />} />
-          <Route path="/analytics" element={<Analytics />}/>
         </Routes>
       </Router>
     </div>

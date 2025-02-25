@@ -37,30 +37,6 @@ export default function Sidebar() {
             Расписание
           </div>
         </Link>
-        <Link to="/addfilial">
-          <div
-            className={`sb_button ${activeButton === 'Добавить филлиал' ? 'sb_active' : 'sb_noactive'}`}
-            onClick={() => handleButtonClick('Добавить филлиал')}
-          >
-            Добавить филлиал
-          </div>
-        </Link>
-        <Link to="/addprobfilial">
-          <div
-            className={`sb_button ${activeButton === 'Добавить пробное' ? 'sb_active' : 'sb_noactive'}`}
-            onClick={() => handleButtonClick('Добавить пробное')}
-          >
-            Добавить пробное
-          </div>
-        </Link>
-        <Link to="/payinfo">
-          <div
-            className={`sb_button ${activeButton === 'Счета' ? 'sb_active' : 'sb_noactive'}`}
-            onClick={() => handleButtonClick('Счета')}
-          >
-            Счета
-          </div>
-        </Link>
       </div>
     </div>
   );

@@ -22,7 +22,6 @@ export function ProbnFilialCard({ kindergarten, onDelete, onEdit, isHighlighted 
           <div className="filial_adress">{address}</div>
         </div>
         <div className="mla textright">
-          <div className="filial_price">{price} / чел</div>
           <div className="flex al_itms_c textright">
             <div className="filial_metro textright">{metro}</div>
             <div className="filial_metro_color ml5 textright" style={{ background: color }}></div>

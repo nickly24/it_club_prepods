@@ -73,7 +73,7 @@ const AttendanceCard = ({ record, filialId, editAttendance, deleteAttendance, pr
         <>
           <div className='card_data'>{formatDate(record.date)} ({dayOfWeek})</div>
           <div><FaPeopleGroup className='people-icon' /> : {record.number_of_children}</div>
-          <div className='icons_mb'><IoMdPricetags className='people-icon'/> : {record.price_per_session} руб.</div>
+          
           <div className='icons_mb prepod_name' >
             <IoPerson style={{ color: updatedPrepod?.color || record.color }} /> {updatedPrepod?.name || record.prepod_name}
           </div>

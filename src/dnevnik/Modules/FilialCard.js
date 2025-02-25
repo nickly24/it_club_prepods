@@ -80,7 +80,6 @@ const FilialCard = ({ filial, attendance, addAttendance, editAttendance, deleteA
           )}
         </div>
       </div>
-      <div className="total-sum">Сумма: {totalSum} руб.</div>
     </div>
   );
 };

@@ -38,14 +38,10 @@ export function FilialCard(props) {
           <div className="filial_adress">{props.address}</div>
         </div>
         <div className="mla textright">
-          <div className="filial_price">{props.price} / чел</div>
+          
           <div className="flex al_itms_c textright">
             <div className="filial_metro textright">{props.metro}</div>
             <div className="filial_metro_color ml5 textright" style={{background: props.color}}></div>
-          </div>
-          <div className="textright">
-            <MdEdit className='mt20 mr10' size={24} color="#0000EE" onClick={handleEdit} />
-            <MdDeleteForever className='mt20' size={24} color="#EE6E35" onClick={handleDelete} />
           </div>
         </div>
       </div>
