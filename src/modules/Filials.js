@@ -47,6 +47,7 @@ export default function Filials() {
       ) : (
         kindergartens.map((kindergarten, index) => (
           <FilialCard
+            className={kindergarten.status}
             key={index}
             id={kindergarten.id}
             name={kindergarten.name}

@@ -31,6 +31,7 @@ export function FilialCard(props) {
   };
 
   return (
+    <div className={props.className}>
     <div className='pd20 card_main mb15'>
       <div className="flex al_itms_c">
         <div>
@@ -46,6 +47,7 @@ export function FilialCard(props) {
         </div>
       </div>
       <Modal show={showModal} onClose={handleModalClose} onSubmit={handleModalSubmit} filial={props} />
+    </div>
     </div>
   );
 }
